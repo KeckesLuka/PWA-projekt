@@ -1,0 +1,145 @@
+body {
+    margin: 0 auto;
+    background-color: lightgrey !important;
+}
+
+main {
+    margin: auto;
+    width: 75%;
+    min-height: 800px !important;
+}
+
+p {
+    font-family: 'Alegreya SC', serif;
+}
+
+h1,h2,h3,a {
+    font-family: 'Exo', sans-serif;
+}
+
+header {
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 10px 5px rgb(156, 150, 150);
+    z-index: 10;
+}
+
+nav {
+    padding: 10px;
+    display: block;
+}
+
+header h1 {
+    font-size: 64px;
+    text-align: center;
+    padding: 11px;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+header a {
+    word-spacing: 10px;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+header hr {
+    position: absolute;
+    margin-top: 90px;
+    height: 5px;
+    width: 100%;
+    border-width: 0;
+    color: darkslategray;
+    background-color: darkslategray
+}
+
+body a:hover {
+    color: rgba(17, 0, 255, 0.521);
+    text-decoration: none;
+}
+
+article {
+    margin-top: 30px;
+    padding-top: 25px;
+    height: auto;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+}
+
+.Slika img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer hr {
+    height: 2px;
+    width: 75%;
+    border-width: 0;
+    color: gray;
+    background-color: gray
+}
+
+footer {
+    padding-top: 15px;
+    width: 100%;
+    height: 150px;
+    background-color: darkslategray;
+}
+
+.podaci {
+    padding-top: 10px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+section {
+    border-top: 5px solid rgb(0, 0, 0);
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+main a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    margin-top: 10px;
+}
+
+main .row div {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: left;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+.Unospodataka {
+    text-align: center;
+    margin: 10px 0;
+    padding: 50px;
+    background-color: rgba(0, 136, 255, 0.373);
+}
+
+.obavijesti{
+    text-align: center;
+    font-size: 48px;
+}
+form {
+    display: inline-block;
+}
